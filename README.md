@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -67,7 +66,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
 # Burger Queen
 
 ## Preámbulo
@@ -389,4 +387,3 @@ rápidamente a los clientes que las hicieron.
 ### Cloud functions
 
 * [Cloud functions - Firebase Docs](https://firebase.google.com/docs/functions/?hl=es-419)
->>>>>>> 486947165e60d16113adf6dda5b0d93c49d23200

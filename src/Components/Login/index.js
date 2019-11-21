@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './styles.css';
 import logo from '../../images/bqorange.png';
-import { authUser } from '../../index';
+import { authUser } from '../../firebase';
 
-class login extends Component  {
+class Login extends Component  {
   state = {
     user: '',
     password: '',
@@ -43,4 +43,4 @@ class login extends Component  {
         
       };
 
-export default login;
+export default Login;

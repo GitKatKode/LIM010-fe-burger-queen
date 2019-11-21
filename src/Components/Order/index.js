@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class order extends Component  {
+class Order extends Component  {
   state = {
 
 
@@ -15,4 +15,4 @@ class order extends Component  {
         
       };
 
-export default order;
+export default Order;

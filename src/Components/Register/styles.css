@@ -1,0 +1,60 @@
+.register{
+    height: 100%;
+    width: 100%;
+}
+.form-register{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 38em;
+    height: 90%;
+    margin: 20px auto 100px;
+    padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.menu {
+    flex-direction: column;
+    width: 18em;
+    height: 28%;
+    font-size: 14px;
+}
+
+.btn{
+    outline: 0;
+    background:  rgb(165, 27, 8);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.btn:hover,.btn:active,.btn:focus {
+    background: rgb(248, 38, 1);
+  }
+
+
+.client{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    background: #f7da5a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(right, #f7da5a, rgb(248, 134, 68));
+    background: -moz-linear-gradient(right, #f7da5a, rgb(248, 134, 68));
+    background: -o-linear-gradient(right, #f7da5a, rgb(248, 134, 68));
+    background: linear-gradient(to left, #f7da5a, rgb(248, 134, 68));
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    font-family: "Roboto", sans-serif;
+}

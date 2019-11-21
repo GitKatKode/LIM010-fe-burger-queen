@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-class register extends Component  {
+class Kitchen extends Component  {
   state = {
 
 
@@ -8,11 +8,11 @@ class register extends Component  {
 
   render () {
       return(
-          <h1>REGISTER</h1>
+          <h1>KITCHEN</h1>
        
       )
   };
         
       };
 
-export default register;
+export default Kitchen;
